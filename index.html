@@ -1,0 +1,111 @@
+<html>
+	<head>
+        <meta charset="UTF-8">
+		<title>TP1</title>
+            <link href="/image/favicon.ico" rel="icon"  type="image/x-icon">
+            <link rel="stylesheet" href="css/style.css">
+            <script src="js/script.js" type="text/javascript"></script>
+	    
+
+    </head>
+    <body>
+        <header>
+                <h1>QCM sur les caractéristiques de l'ESTIAM</h1>
+                <p>
+                Bonjour!<br>Vous devrez choisir un seul choix et cliquer sur "voir le score"
+                pour obtenir le résultat
+                </p>
+    
+        </header>
+
+        <main> 
+            <!--cette partie contient les questions avec les réponses proposés-->
+            <section>
+                <p class="title" id="main_title">Quelle est l'année de la création de l'ESTIAM?</p>
+                <input type="radio" name="choix" onClick="q=1"> 2013<br>
+                <input type="radio" name="choix" onClick="q=0"> 2012
+                
+            </section>
+            <section>
+                <p>
+                    Quel est son Président? 
+                </p>
+
+               <input type="radio" name="choix1" onClick="q1=1"> Olivier<br>
+               <input type="radio" name="choix1" onClick="q1=0"> Jack <br>
+               <input type="radio" name="choix1" onClick="q1=0"> Marc <br>
+            </section>
+            <section>
+                <p>
+                    A partir de quelle année les étudiants pourront commencé l'alternance?
+                </p>
+
+               <input type="radio" name="choix2"  onClick="q2=0"> 1ère année<br>
+               <input type="radio" name="choix2"  onClick="q2=0"> 2ème année<br>
+               <input type="radio" name="choix2"  onClick="q2=1"> 4ème année<br>
+            </section> 
+            <section>
+                <p>
+                    Quelle le type de contrat accepté par cette en alternance? 
+                </p>
+
+               <input type="radio" name="choix3" onClick="q3=1"> Professionnalisation<br>
+               <input type="radio" name="choix3" onClick="q3=0"> Apprentissage<br>
+            </section>
+            <section>
+                <p>
+                    Quel est le rythme de l'alternance? 
+                </p>
+
+               <input type="radio" name="choix4"  onClick="q4=1"> 1jour à l'école / 4jours en entreprise <br>
+               <input type="radio" name="choix4"  onClick="q4=0"> 1semaine à l'école / 1 semaine à l'entreprise<br>
+               <input type="radio" name="choix4"  onClick="q4=0"> 1 mois à l'école / 1 mois à l'entreprise<br>
+            </section>
+            <section>
+                <p>
+                    Quel est le diplome dilivré par cette école? 
+                </p>
+
+               <input type="radio" name="choix5"  onClick="q5=0"> Ingénieur<br>
+               <input type="radio" name="choix5"  onClick="q5=1"> Expert<br>
+               <input type="radio" name="choix5"  onClick="q5=0"> Technicien<br>
+            </section>
+            <section>
+                <p>
+                    Est ce que Financia est un partenaire de cette école? 
+                </p>
+
+               <input type="radio" name="choix6" onClick="q6=1"> Oui<br>
+               <input type="radio" name="choix6" onClick="q6=0"> Non <br>
+            </section>
+            <section>
+                <p>
+                    Est ce que cette école est enregistré par l'Etat? 
+                </p>
+
+               <input type="radio" name="choix7" onClick="q7=0"> Non<br>
+               <input type="radio" name="choix7" onClick="q7=1"> Oui<br>
+            </section>
+            <section>
+                <p>
+                    Quel est le nombre maximale des étudiant par classe? 
+                </p>
+
+               <input type="radio" name="choix8" onClick="q8=1"> 15<br>
+               <input type="radio" name="choix8" onClick="q8=0"> 20 <br>
+               <input type="radio" name="choix8" onClick="q8=0"> 30 <br>
+            </section>
+            <section>
+                <p>
+                    Quelle est l'année de spécialisation? 
+                </p>
+
+               <input type="radio" name="choix9" onClick="q9=0"> 4ème année<br>
+               <input type="radio" name="choix9" onClick="q9=0"> 3ème année<br>
+               <input type="radio" name="choix9" onClick="q9=1"> 5ème année<br>
+            </section>
+        </main>
+        <!--button pour valider les réponses-->
+        <br><input type="button" value="Voir le score"  onClick="calculer()">  
+    </body>
+</html>

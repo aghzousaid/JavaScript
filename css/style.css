@@ -1,0 +1,42 @@
+/*définir les couleurs du body*/
+body{
+    background-color:lavender;
+    color: rgba(5, 1, 5, 0.97);
+}
+
+/*Séparer les questions*/
+section:not(:last-child){
+    border-bottom-width: 3px;
+    border-bottom-style: solid;/*ligne continue*/
+    border-bottom-color: #00a;
+    padding-bottom: 10px;
+}
+
+/*mettre au centre le contenue de h1*/
+h1{
+    text-align: center;
+    color:blueviolet; 
+
+}
+
+/*agrandir la taille du p qui est à l'intérieur de header*/
+header p {
+    font-size: 1.2em;
+    font-size: 30px;    
+}
+
+/*agrandir la taille du titre*/ 
+title {
+    font-size : 1.2em;
+}
+
+/* agrandir la taille de checkbox lorsque on passe la sourie*/
+input:hover { 
+    transform: scale(1.5); 
+}
+
+/*agrandir la taille de la balise p qui contient la question*/
+p{
+    font-size: 1.2em;
+    text-decoration: slateblue;
+}
